@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Eclipselike" parent="Eclipse">
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control F4" />
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="control SLASH" />
+    <keyboard-shortcut first-keystroke="control DIVIDE" />
+    <keyboard-shortcut first-keystroke="shift control C" />
+  </action>
+  <action id="Console.Jdbc.Close" />
+  <action id="Console.Jpa.Close" />
+  <action id="CopyPaths" />
+  <action id="DSM.Close" />
+  <action id="DatabaseView.GenerateDDLAction" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="control alt M" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="shift alt S" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="control alt V" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift alt T" />
+  </action>
+  <action id="RemoteHostView.CopyPaths" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="control N" />
+    <keyboard-shortcut first-keystroke="control F10" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="context.save" />
+  <action id="tasks.switch" />
+  <action id="tasks.switch.toolbar" />
+</keymap>
+
