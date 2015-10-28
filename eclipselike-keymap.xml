@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Eclipselike" parent="Eclipse">
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt F10" />
+    <keyboard-shortcut first-keystroke="shift alt X" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="control F4" />
@@ -15,19 +18,59 @@
   <action id="CopyPaths" />
   <action id="DSM.Close" />
   <action id="DatabaseView.GenerateDDLAction" />
+  <action id="EditorNextWord" />
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift control RIGHT" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift control LEFT" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="EditorScrollToCenter" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="control alt M" />
+  </action>
+  <action id="FindNext" />
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="control K" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="shift alt S" />
   </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="control M" />
+    <keyboard-shortcut first-keystroke="shift control F12" />
+  </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="control alt V" />
   </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt UP" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift alt T" />
   </action>
   <action id="RemoteHostView.CopyPaths" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift F10" />
+  </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="control N" />
     <keyboard-shortcut first-keystroke="control F10" />
@@ -47,8 +90,10 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="control E" />
+  </action>
   <action id="context.save" />
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>
-
